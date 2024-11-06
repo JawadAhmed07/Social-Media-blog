@@ -1,8 +1,10 @@
 import Image from "next/image";
+import Header from "./header";
 
 export default function Home() {
   return (
-    <h1>hello testing</h1>
+  //  header
+  <Header/>
   );
 }
 
