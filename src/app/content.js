@@ -6,19 +6,20 @@ export default function Content() {
         <div className="container mx-auto lg:px-20 xl:px-40 py-10">
     {/* Main Section Heading */}
     <section className="body-font mb-10 px-4">
-        <div className="container mx-auto flex flex-col items-center">
-            <h1 className="text-3xl md:text-4xl font-bold text-center text-green-600 underline mb-4">
-                5 Practical Steps to Sustainable Living: Reduce, Reuse, Recycle
-            </h1>
-            <p className="text-lg items-start leading-relaxed text-gray-700 max-w-2xl">
-                Living sustainably doesn’t have to be overwhelming—it’s about making small,
-                thoughtful changes that collectively have a big impact. Adopting the principles
-                of “Reduce, Reuse, Recycle” can help create an eco-friendlier lifestyle,
-                benefiting both the planet and your daily life. Here’s a practical guide to
-                get started!
-            </p>
-        </div>
-    </section>
+    <div className="container mx-auto flex flex-col items-start">
+        <h1 className="text-3xl md:text-4xl font-bold text-left text-green-600 underline mb-4">
+            5 Practical Steps to Sustainable Living: Reduce, Reuse, Recycle
+        </h1>
+        <p className="text-lg text-left leading-relaxed text-gray-700 max-w-2xl">
+            Living sustainably doesn’t have to be overwhelming—it’s about making small,
+            thoughtful changes that collectively have a big impact. Adopting the principles
+            of “Reduce, Reuse, Recycle” can help create an eco-friendlier lifestyle,
+            benefiting both the planet and your daily life. Here’s a practical guide to
+            get started!
+        </p>
+    </div>
+</section>
+
 
     {/* First Section */}
     <section className="body-font mb-10 px-4">
