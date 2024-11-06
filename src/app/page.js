@@ -3,8 +3,19 @@ import Header from "./header";
 
 export default function Home() {
   return (
-  //  header
-  <Header/>
+    <div>
+      <Header />
+      <Image
+        className="dark:invert w-96 h-12 pt-24 "
+        src="/bg.jpg"
+        alt="Next.js logo"
+        // width={1400}
+        // height={500}
+        fill={true}
+        priority
+      />
+    </div>
+
   );
 }
 
