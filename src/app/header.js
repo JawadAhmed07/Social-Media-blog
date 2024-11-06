@@ -3,6 +3,8 @@ import Image from "next/image";
 
 export default function Header() {
     return (
+        <>
+        
         <header className="text-gray-400  body-font">
             <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                 {/* <nav className="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
@@ -24,5 +26,15 @@ export default function Header() {
                 </div>
             </div>
         </header>
+        {/* <Image
+        className="dark:invert w-96 h-12 pt-24 "
+        src="/bg.jpg"
+        alt="Next.js logo"
+        // width={1400}
+        // height={500}
+        fill={true}
+        priority
+      /> */}
+        </>
     )
 }
