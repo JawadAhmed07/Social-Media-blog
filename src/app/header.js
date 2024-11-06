@@ -18,7 +18,7 @@ export default function Header() {
                     className="dark:invert"
                     src="/logo.png"
                     alt="Next.js logo"
-                    width={60}
+                    width={90}
                     height={38}
                     priority
                 />
